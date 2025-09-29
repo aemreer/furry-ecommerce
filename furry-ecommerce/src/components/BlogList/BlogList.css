@@ -1,0 +1,37 @@
+.blog-list-section {
+    margin: 0 70px;
+    padding-bottom: 60px;
+    background-color: var(--light-color);
+    font-family: var(--font-main);
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: var(--dark-color);
+    font-family: var(--font-logo);
+}
+
+.blog-grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+
+}
+
+/* RESPONSİVE */
+
+@media (max-width: 768px) {
+    .blog-grid {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .section-title {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+}

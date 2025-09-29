@@ -1,0 +1,48 @@
+.discount-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+
+}
+
+.discount-title {
+    font-family: var(--font-logo);
+    color: var(--dark-color);
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.discount-input {
+    width: 100%;
+    padding: 10px 12px;
+    margin: 10px 0;
+    border-radius: 0.3rem;
+    outline: none;
+    border: 1px solid var(--gray-color);
+}
+
+.discount-btn {
+    padding: 10px 12px;
+    width: 100%;
+    border-radius: 0.3rem;
+    outline: none;
+    border: none;
+    background-color: var(--dark-color);
+    color: white;
+    cursor: pointer;
+    transition: background-color 1s
+}
+
+.discount-btn:hover {
+    background-color: var(--accent-blue);
+
+}
+
+.discount-img {
+    width: 800px;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}

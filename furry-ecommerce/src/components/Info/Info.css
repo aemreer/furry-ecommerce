@@ -1,0 +1,52 @@
+.info-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 3rem 1rem;
+}
+
+.info-card {
+    max-width: 300px;
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.info-card:hover {
+    transform: scale(1.05);
+}
+
+.info-icon {
+    color: var(--accent-blue);
+    font-size: 3rem
+}
+
+.info-card h3 {
+    font-family: var(--font-logo);
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.info-card p {
+    color: var(--gray-color);
+    font-size: 1rem;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+    .info-card {
+        max-width: 100%;
+    }
+
+    .icon {
+        font-size: 40px;
+    }
+
+    .info-title {
+        font-size: 1rem;
+    }
+}
