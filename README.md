@@ -1,8 +1,8 @@
 # 🐾 Furry - Pet E-commerce Website
 
 Furry, modern bir **React tabanlı e-ticaret projesidir**.  
-[TemplatesJungle Furry](https://templatesjungle.com/demo/?url=https://demo.templatesjungle.com/furry/) tasarımına sadık kalınarak geliştirilmiştir.  
-Bu proje, React ve Vite kullanılarak geliştirildi. 
+[TemplatesJungle Furry](https://templatesjungle.com/demo/?url=https://demo.templatesjungle.com/furry/) tasarımına sadık kalınarak, React ve Vite kullanılarak geliştirilmiştir.  
+
 
 ## 🚀 Demo
 🔗 [Canlı Siteyi Görüntüle](https://your-netlify-link.netlify.app)
