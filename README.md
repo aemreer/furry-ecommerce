@@ -2,7 +2,7 @@
 
 Furry, modern bir **React tabanlı e-ticaret projesidir**.  
 [TemplatesJungle Furry](https://templatesjungle.com/demo/?url=https://demo.templatesjungle.com/furry/) tasarımına sadık kalınarak geliştirilmiştir.  
-Projede **responsive tasarım** uygulanmış olup tüm cihazlarda uyumludur.  
+Bu proje, React ve Vite kullanılarak geliştirildi. 
 
 ## 🚀 Demo
 🔗 [Canlı Siteyi Görüntüle](https://your-netlify-link.netlify.app)
