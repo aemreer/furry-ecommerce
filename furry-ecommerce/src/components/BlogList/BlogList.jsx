@@ -1,5 +1,5 @@
 import React from 'react'
-import './Bloglist.css'
+import './BlogList.css'
 import BlogCard from '../BlogCard/BlogCard'
 import blogs from '../../data/Blog'
 
