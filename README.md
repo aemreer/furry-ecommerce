@@ -5,7 +5,7 @@ Furry, modern bir **React tabanlı e-ticaret projesidir**.
 
 
 ## 🚀 Demo
-🔗 [Canlı Siteyi Görüntüle](https://your-netlify-link.netlify.app)
+🔗 [Canlı Siteyi Görüntüle](https://furry-ecommerce.netlify.app)
 
 ## 🛠️ Kullanılan Teknolojiler
 - React  
