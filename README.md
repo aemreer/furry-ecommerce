@@ -14,24 +14,6 @@ Projede **responsive tasarım** uygulanmış olup tüm cihazlarda uyumludur.
 - React Icons  
 - Netlify (Deployment)  
 
-## 📂 Proje Yapısı
-
-
-src
-├── components # Reusable React componentleri
-├── data # Mock veriler (ürünler, yorumlar vs.)
-├── pages # Sayfalar (Home, About, Contact)
-├── App.js # Router yapısı
-└── index.js # Giriş noktası
-
-
-## ✨ Özellikler
-- 🛒 Ürün listeleme (Best Selling Products)  
-- ⭐ Müşteri yorumları (Customers Reviews)  
-- 📂 Kategori filtreleme (CategoryFilter)  
-- 📱 Responsive tasarım (mobil, tablet, desktop)  
-- 🔍 Header’da arama, kullanıcı ve sepet ikonları  
-
 ## 📦 Kurulum
 Projeyi kendi bilgisayarında çalıştırmak için:
 
@@ -56,8 +38,3 @@ npm run build
 
 Sonrasında build/ klasörü Netlify veya Vercel’e deploy edilebilir.
 
-👨‍💻 Geliştirici
-Emre
-📧 İletişim: [e-mail adresin buraya]
-
-✨ Eğer projeyi beğendiyseniz ⭐ bırakabilirsiniz!
