@@ -10,7 +10,7 @@ function SingleProduct({ product }) {
         <div className='singleProduct-section'>
             <div className="singleProduct-container">
                 <div className='single-left-side'>
-                    <img className='singleProduct-img' src={product.image} alt="" />
+                    <img className='singleProduct-img' src={product.image} alt="" loading="lazy" />
                 </div>
                 <div className='single-right-side'>
                     <div>
