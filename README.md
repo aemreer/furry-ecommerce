@@ -1,4 +1,3 @@
-```markdown
 # 🐾 Furry - Pet E-commerce Website
 
 Furry, modern bir **React tabanlı e-ticaret projesidir**.  
@@ -16,16 +15,15 @@ Projede **responsive tasarım** uygulanmış olup tüm cihazlarda uyumludur.
 - Netlify (Deployment)  
 
 ## 📂 Proje Yapısı
-```
+
 
 src
-├── components     # Reusable React componentleri
-├── data           # Mock veriler (ürünler, yorumlar vs.)
-├── pages          # Sayfalar (Home, About, Contact)
-├── App.js         # Router yapısı
-└── index.js       # Giriş noktası
+├── components # Reusable React componentleri
+├── data # Mock veriler (ürünler, yorumlar vs.)
+├── pages # Sayfalar (Home, About, Contact)
+├── App.js # Router yapısı
+└── index.js # Giriş noktası
 
-````
 
 ## ✨ Özellikler
 - 🛒 Ürün listeleme (Best Selling Products)  
@@ -49,26 +47,17 @@ npm install
 
 # Projeyi başlat
 npm start
-````
 
-## 🚀 Build ve Deploy
+🚀 Build ve Deploy
 
 Production için build almak:
 
-```bash
 npm run build
-```
 
-Sonrasında `build/` klasörü Netlify veya Vercel’e deploy edilebilir.
+Sonrasında build/ klasörü Netlify veya Vercel’e deploy edilebilir.
 
-## 👨‍💻 Geliştirici
-
-* Emre
-* 📧 İletişim: [e-mail adresin buraya]
-
----
+👨‍💻 Geliştirici
+Emre
+📧 İletişim: [e-mail adresin buraya]
 
 ✨ Eğer projeyi beğendiyseniz ⭐ bırakabilirsiniz!
-
-```
-```
