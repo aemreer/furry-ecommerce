@@ -1,7 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import products from '../data/Product';
-import SingleProduct from '../components/Singleproduct/SingleProduct';
+import SingleProduct from '../components/SingleProduct/SingleProduct';
 import Discount from '../components/Discount/Discount';
 import Footer from '../components/Footer/Footer';
 import Header from '../components/Header/Header';
