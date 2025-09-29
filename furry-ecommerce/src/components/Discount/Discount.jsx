@@ -13,7 +13,7 @@ function Discount() {
                     <button className='discount-btn'>Subscribe</button>
                 </div>
                 <div className="discount-right-side">
-                    <img src={image} alt="" className='discount-img' />
+                    <img src={image} alt="" className='discount-img' loading="lazy" />
                 </div>
             </div>
         </div>
