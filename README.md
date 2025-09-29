@@ -18,23 +18,14 @@ Furry, modern bir **React tabanlı e-ticaret projesidir**.
 Projeyi kendi bilgisayarında çalıştırmak için:
 
 ```bash
-# Repo’yu klonla
-git clone https://github.com/kullaniciAdi/furry.git
+# 1. Repo’yu klonla
+git clone https://github.com/alevyldrm/furry-ecommerce.git
 
-# Proje klasörüne gir
-cd furry
+# 2. Dizine girin
+cd furry-ecommerce
 
-# Bağımlılıkları yükle
+# 3. Bağımlılıkları yükleyin
 npm install
 
-# Projeyi başlat
-npm start
-
-🚀 Build ve Deploy
-
-Production için build almak:
-
-npm run build
-
-Sonrasında build/ klasörü Netlify veya Vercel’e deploy edilebilir.
-
+# 4. Uygulamayı başlatın
+npm run dev
