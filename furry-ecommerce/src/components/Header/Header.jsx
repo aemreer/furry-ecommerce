@@ -4,7 +4,7 @@ import { FiSearch, FiUser, FiShoppingCart } from 'react-icons/fi';
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Link } from 'react-router-dom';
 
-function Header() {
+function Header({ scrollToShop }) {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     return (
         <div className="header">
@@ -13,7 +13,7 @@ function Header() {
                 <div className={`navbar__links ${isMobileMenuOpen ? "open" : ""}`}>
 
                     <li><Link to={"/"}>Home</Link></li>
-                    <li><Link to={"/"}>Shop</Link></li>
+                    <li onClick={scrollToShop}><Link to={"/"}>Shop</Link></li>
                     <li><Link to={"/about"}>About</Link></li>
                     <li><Link to={"/contact"}>Contact</Link></li>
 

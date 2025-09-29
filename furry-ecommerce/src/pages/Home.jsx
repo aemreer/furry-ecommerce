@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 
 import Header from '../components/Header/Header'
 import Footer from '../components/Footer/Footer'
@@ -10,11 +10,18 @@ import Discount from '../components/Discount/Discount'
 import Info from '../components/Info/Info'
 
 function Home() {
+    const shopRef = useRef(null);
+
+    const scrollToShop = () => {
+        shopRef.current.scrollIntoView({ behavior: "smooth" });
+    };
     return (
         <div>
-            <Header />
+            <Header scrollToShop={scrollToShop} />
             <HeroBanner />
-            <ProductList />
+            <div ref={shopRef}>
+                <ProductList />
+            </div>
             <CustomerReviews />
             <BlogList />
             <Discount />
